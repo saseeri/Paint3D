@@ -10,6 +10,7 @@ namespace MinVR {
 	 *  3. Drag it above the bar labeled "Default Time".  This will set its order to "-100", which means its Update() method
 	 *     will be called before the Update() method for any other script.
 	 */
+	 
 	public class VRMain : MonoBehaviour {
 
 		[Tooltip("Select this to connect to a MinVR Server to get tracker and other input events.  The server must already be running at the time your Unity program starts up.")]
